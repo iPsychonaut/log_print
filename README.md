@@ -11,15 +11,15 @@ A simple Python utility that logs a message to a file and prints it to the conso
 
 Make sure to install the `termcolor` library using the following command:
 
-\```bash
+```bash
 pip install termcolor
-\```
+```
 
 ## Usage
 
 To use this utility, simply import the `log_print` function and call it with the appropriate parameters.
 
-\```python
+```python
 from /path/to/log_print import log_print
 
 input_file = '/path/to/file.extension'
@@ -30,7 +30,7 @@ log_print(input_message='PASS: MESSAGE', log_file=run_log)  # PRINTS IN GREEN TO
 log_print(input_message='NOTE: MESSAGE', log_file=run_log)  # PRINTS IN CYAN TO CONSOLE
 log_print(input_message='ERROR: MESSAGE', log_file=run_log) # PRINTS IN RED TO CONSOLE
 log_print(input_message='MESSAGE', log_file=run_log)        # PRINTS IN WHITE TO CONSOLE
-\```
+```
 
 ## Message Types
 
