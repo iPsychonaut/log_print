@@ -17,9 +17,9 @@ This utility provides functions to log messages to a file and print them to the 
 
 Make sure to install the `termcolor` library using the following command:
 
-\```bash
+```bash
 pip install termcolor
-\```
+```
 
 ## Functions
 
@@ -41,7 +41,7 @@ Logs a message to a file and prints it to the console.
 
 Here's how to use the functions:
 
-\```python
+```python
 input_file = 'E:/Entheome_ONT-Illumina_Hybrid_Assembly_Pipeline/test.fastq'
 file_extension = pathlib.Path(input_file).suffix
 run_log = input_file.replace(file_extension, '.txt')
@@ -52,7 +52,7 @@ run_log = generate_log_file(run_log, use_numerical_suffix=False)
 log_print(input_message='PASS: TEST', log_file=run_log)
 log_print(input_message='NOTE: TEST', log_file=run_log)
 log_print(input_message='ERROR: TEST', log_file=run_log)
-\```
+```
 
 ## Author
 
